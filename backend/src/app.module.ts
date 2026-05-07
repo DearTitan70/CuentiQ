@@ -9,6 +9,7 @@ import { CreditsModule } from './credits/credits.module';
 import { RecurringModule } from './recurring/recurring.module';
 import { TransactionsModule } from './transactions/transactions.module';
 import { CategoriesModule } from './categories/categories.module';
+import { BalanceModule } from './balance/balance.module';
 
 @Module({
   imports: [
@@ -34,6 +35,7 @@ import { CategoriesModule } from './categories/categories.module';
     RecurringModule,
     CreditsModule,
     CreditTransactionsModule,
+    BalanceModule,
   ],
   controllers: [AppController],
 })
