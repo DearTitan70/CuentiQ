@@ -1,0 +1,19 @@
+{
+  "name": "cuentiq",
+  "version": "0.0.1",
+  "description": "Sistema de control financiero con proyección y toma de decisiones",
+  "repository": {
+    "type": "git",
+    "url": "git@github-personal:DearTitan70/CuentiQ.git"
+  },
+  "license": "MIT",
+  "author": "Camilo Vera <camilov0310@gmail.com>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
